@@ -40,7 +40,7 @@ print( '>>> CSV TESTS COMPLETE!' . PHP_EOL);
 
 
 $testTSV = new TestTSV;
-print( '>>> Run CSV tests:' . PHP_EOL);
+print( '>>> Run TSV tests:' . PHP_EOL);
 print( '>>> testHeader' . PHP_EOL);
 $testTSV->testHeader(7);
 print( '>>> testRead' . PHP_EOL);
@@ -59,4 +59,4 @@ $header = [
     "count"
 ];
 $testTSV->assertColumnOrder($header);
-print( '>>> CSV TESTS COMPLETE!' . PHP_EOL);
+print( '>>> TSV TESTS COMPLETE!' . PHP_EOL);
